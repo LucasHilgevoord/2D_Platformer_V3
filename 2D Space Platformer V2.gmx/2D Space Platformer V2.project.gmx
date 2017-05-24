@@ -40,6 +40,7 @@
     <sprite>sprites\spr_Checkpoint</sprite>
     <sprite>sprites\spr_Button</sprite>
     <sprite>sprites\spr_Button_Press</sprite>
+    <sprite>sprites\sprite20</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -66,6 +67,7 @@
       <script>scripts\scr_Timer_OnStep.gml</script>
       <script>scripts\scr_Timer_OnDraw.gml</script>
     </scripts>
+    <script>scripts\scr_go_to_lvl2.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_Menu</font>
@@ -96,6 +98,8 @@
       <object>objects\obj_Spike</object>
     </objects>
     <object>objects\obj_Timer</object>
+    <object>objects\object16</object>
+    <object>objects\obj_portal</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_1</room>
