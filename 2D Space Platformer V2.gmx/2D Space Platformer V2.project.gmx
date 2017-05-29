@@ -44,6 +44,7 @@
     <sprites name="menu">
       <sprite>sprites\quit</sprite>
     </sprites>
+    <sprite>sprites\facts</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -104,6 +105,7 @@
     <object>objects\object16</object>
     <object>objects\obj_portal</object>
     <object>objects\obj_pause</object>
+    <object>objects\obj_fact1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_1</room>
