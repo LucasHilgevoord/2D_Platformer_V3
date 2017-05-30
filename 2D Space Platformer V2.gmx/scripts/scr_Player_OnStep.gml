@@ -18,7 +18,7 @@ scr_Player_Collision();
 scr_Player_Hurt();
 
 //Reset Room
-if keyboard_check(vk_escape)
+if keyboard_check(vk_backspace)
    {
    room_goto(rm_1);
    }

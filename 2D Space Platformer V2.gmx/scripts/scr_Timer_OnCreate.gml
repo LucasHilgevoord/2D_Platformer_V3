@@ -1,2 +1,2 @@
-countdown_time = 100;
+countdown_time = 3;
 rounded_time = 0;

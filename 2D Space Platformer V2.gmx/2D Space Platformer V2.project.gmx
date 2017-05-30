@@ -40,9 +40,23 @@
     <sprite>sprites\spr_Checkpoint</sprite>
     <sprite>sprites\spr_Button</sprite>
     <sprite>sprites\spr_Button_Press</sprite>
+    <sprite>sprites\Healthbar</sprite>
+    <sprite>sprites\spr_Zuurstofvles</sprite>
+    <sprites name="Collectables">
+      <sprite>sprites\spr_Collectable1</sprite>
+      <sprite>sprites\spr_Collectable2</sprite>
+    </sprites>
+    <sprites name="Click">
+      <sprite>sprites\spr_Click</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\bg_MainMenu</background>
+    <background>background\bg_HowToPlay</background>
+    <background>background\bg_HowToPlayV2</background>
+    <background>background\bg_GameOver</background>
+    <background>background\bg_WinScherm</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -95,11 +109,25 @@
     <objects name="Entities">
       <object>objects\obj_Spike</object>
     </objects>
-    <object>objects\obj_Timer</object>
+    <objects name="UI">
+      <object>objects\obj_Timer</object>
+    </objects>
+    <objects name="Collectables">
+      <object>objects\obj_Collectable1</object>
+      <object>objects\obj_Collectable2</object>
+    </objects>
+    <objects name="Click">
+      <object>objects\Obj_Restart</object>
+      <object>objects\obj_QuitGame</object>
+      <object>objects\obj_MainMenu</object>
+      <object>objects\obj_HowToPlay</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_MainMenu</room>
+    <room>rooms\rm_HowToPlay</room>
     <room>rooms\rm_1</room>
-    <room>rooms\rm_LevelSelect</room>
+    <room>rooms\rm_GameOver</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

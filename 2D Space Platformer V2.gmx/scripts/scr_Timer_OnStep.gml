@@ -12,5 +12,5 @@ else
 
 if(countdown_time <= 0)
 {
-room_goto(room_GameOver)
+room_goto(rm_GameOver);
 }
